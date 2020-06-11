@@ -1,3 +1,56 @@
-body{
-    color: red;
+/*---BOOTSTRAP CDN to be added at the top----*/
+
+/*---BODY----*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
+
+/*---NAVIGATION SECTION*/
+#nav-bar{ /*to stick to the top of the page at all times*/
+position: sticky;
+top: 0;
+z-index: 10;
+}
+
+/*Navigation bar CSS needs further customisation to make my logo bigger TBC*/
+.navbar-brand img {
+    height: 90px;
+    padding-left: 0px;
+}
+/*Navigation link items arranged in the Navbar to provide enough room visually*/
+.navbar-nav li{
+    padding: 0 10px;
+}
+
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+
+/*Navigation link items animation added to change colours when the mouse covers it*/
+#nav-bar ul li a:hover{
+    color: green!important;
+}
+/*Navigation bar section background changed to white TBC may need it to be transparent we'll see when background is added*/
+.navbar {
+    background: #fff
+}
+/*Navigation link items changed colours when the mouse covers it*/
+.navbar-toggler{
+    border: none!important;
+}
+/*Navigation link items font size, weight and colour changed*/
+.nav-link{ 
+    color: #555555;
+    font-weight: 500;
+    font-size: 16px;
+}
+/*---BACKGROUND SECTION*/
+
+/*--ABOUT SECTION*/
+
+
+
+
